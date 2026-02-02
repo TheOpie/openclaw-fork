@@ -1,0 +1,29 @@
+{
+  "name": "Ollama Local",
+  "description": "Local Ollama model - customize the model ID for your setup",
+  "primary": "ollama/llama3.2:latest",
+  "models": {},
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "apiKey": "ollama-local",
+      "api": "openai-responses",
+      "models": [
+        {
+          "id": "llama3.2:latest",
+          "name": "Llama 3.2",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 8192,
+          "maxTokens": 4096
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Claude Opus 4.1",
+  "description": "Anthropic Claude Opus 4.1 - High capability model",
+  "primary": "anthropic/claude-opus-4-1",
+  "models": {
+    "anthropic/claude-opus-4-1": {}
+  },
+  "providers": {}
+}
